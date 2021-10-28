@@ -10,7 +10,7 @@ tags: weekly, rustc
 
 - (TIP) add here non-recurrent scheduled meetings, [check the schedule calendar](https://calendar.google.com/calendar/htmlembed?src=6u5rrtce6lrtv07pfi3damgjus%40group.calendar.google.com)
 - (TIP) mention upcoming Rust stable releases, [check the release calendar](https://calendar.google.com/calendar/htmlembed?src=l1b1gkqvfbgunjs18nemq4c580%40group.calendar.google.com)
-- (TIP) remove this section if none are needed
+- If you see a PR/issue that seems like there might be legal implications due to copywrite/IP/etc, please let the Core team know (or at least message Felix or Wesley so we can pass it along). “If you see something, say something”
 
 ## MCPs/FCPs
 
@@ -31,18 +31,22 @@ tags: weekly, rustc
 
 (TIP) pick from [here](https://rust-lang.github.io/compiler-team/about/triage-meeting/#working-group-check-in)
 
-@*WG-X* checkin by @**person1** ([previous checkin](https://hackmd.io/team/rust-compiler-team?nav=overview)):
+@_WG-X_ checkin by @**person1** ([previous checkin](https://hackmd.io/team/rust-compiler-team?nav=overview)):
+
 > Checkin text
 
-@*WG-Y* checkin by @**person2** ([previous checkin](https://hackmd.io/team/rust-compiler-team?nav=overview)):
+@_WG-Y_ checkin by @**person2** ([previous checkin](https://hackmd.io/team/rust-compiler-team?nav=overview)):
+
 > Checkin text
 
 ## Backport nominations
 
 [T-compiler beta](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Abeta-nominated+-label%3Abeta-accepted+label%3AT-compiler) / [T-compiler beta](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Astable-nominated+-label%3Astable-accepted+label%3AT-compiler)
+
 - No backport nominations for `T-compiler` this time.
 
 [T-rustdoc beta](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Abeta-nominated+-label%3Abeta-accepted+label%3AT-rustdoc) / [T-rustdoc stable](https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Astable-nominated+-label%3Astable-accepted+label%3AT-rustdoc)
+
 - No backport nominations for `T-rustdoc` this time.
 
 :back: / :shrug: / :hand:
@@ -50,11 +54,13 @@ tags: weekly, rustc
 ## PRs S-waiting-on-team
 
 [T-compiler](https://github.com/rust-lang/rust/pulls?utf8=%E2%9C%93&q=is%3Aopen+label%3AS-waiting-on-team+label%3AT-compiler)
+
 - No PRs waiting on `T-compiler` this time.
 
 ## Oldest PRs waiting for review
 
-[T-compiler](https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+label%3AS-waiting-on-review+draft%3Afalse+label%3AT-compiler)
+[T-compiler](https://github.com/rust-lang/rust/pulls?q=is%3Apr+is%3Aopen+label%3AS-waiting-on-review+draft%3Afalse+label%3AT-compiler+sort%3Acreated-asc)
+
 - No unreviewed PRs on `T-compiler` at this time.
 
 ## Issues of Note
@@ -72,17 +78,21 @@ tags: weekly, rustc
 ### P-critical
 
 [T-compiler](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AP-critical+label%3AT-compiler)
+
 - No `P-critical` issues for `T-compiler` this time.
 
 [T-rustdoc](https://github.com/rust-lang/rust/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3AP-critical+label%3AT-rustdoc)
+
 - No `P-critical` issues for `T-rustdoc` this time.
 
 ### P-high regressions
 
 [P-high beta regressions](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Aregression-from-stable-to-beta+label%3AP-high+-label%3AT-infra+-label%3AT-release+-label%3AT-rustdoc+-label%3AT-core)
+
 - No `P-high` beta regressions this time.
 
 [Unassigned P-high nightly regressions](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Aregression-from-stable-to-nightly+label%3AP-high+no%3Aassignee+-label%3AT-infra+-label%3AT-release+-label%3AT-rustdoc+-label%3AT-core)
+
 - No unassigned `P-high` nightly regressions this time.
 
 ## Performance logs
@@ -92,7 +102,9 @@ tags: weekly, rustc
 ## Nominated Issues
 
 [T-compiler](https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AI-nominated+label%3AT-compiler)
+
 - No nominated issues for `T-compiler` this time.
 
 [RFC](https://github.com/rust-lang/rfcs/issues?q=is%3Aopen+label%3AI-nominated+label%3AT-compiler)
+
 - No nominated RFCs for `T-compiler` this time.
